@@ -12,6 +12,10 @@ function run_cmd( ){
       });
 }
 
+function addCmd(){
+    
+}
+
 function createWindow () {
   // Create the browser window.
   const win = new BrowserWindow({
