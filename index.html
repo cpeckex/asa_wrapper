@@ -12,14 +12,28 @@
     
     <!-- Bootstrap Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script>let $ = require('jquery');</script>
+    <script>require('jquery');</script>
     <script>require('popper.js');</script>
-    <script>require('bootstrap');</script>
+    <script>require('bootstrap');</script>  
+
+    <!-- Insert this line after script imports -->
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-  </body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="server-list col-8">
+                <h1>Hello World!</h1>
+            </div>
+            <div class="d-flex align-items-end list-group col-4">
+                    <a href="#" class="list-group-item list-group-item-action active">
+                      Cras justo odio
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">Dapibus ac flacilisis in</a>
+                    <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                    <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                    <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
