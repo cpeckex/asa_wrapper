@@ -1,0 +1,19 @@
+html {
+    height: 100%;
+  }
+body {
+    min-height: 100%;
+}
+
+#cmd-list{
+    padding-left:15px;
+    padding-top: 10px;
+}
+
+/* #server-list .btn{
+    max-height: 2.5em;
+} */
+
+.asa-cmd-btn:focus{
+box-shadow: none;
+}

@@ -25,7 +25,7 @@ function createWindow () {
       nodeIntegration: true
     }
   })
-  run_cmd();
+  //run_cmd();
 
   // and load the index.html of the app.
   win.loadFile('index.html')
